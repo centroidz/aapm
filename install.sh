@@ -10,6 +10,8 @@ mv ~/aapm/config.inc.php $PREFIX/share/phpmyadmin/
 
 mkdir -p $PREFIX/etc/php
 
+mkdir -p $HOME/htdocs
+
 echo 'error_reporting = 0' >> $PREFIX/etc/php/php.ini
 
 mv $PREFIX/etc/apache2/httpd.conf $PREFIX/etc/apache2/httpd.conf.bak
@@ -20,10 +22,10 @@ mv ~/aapm/phpmyadmin-vhost.conf $PREFIX/etc/apache2/
 
 mv ~/aapm/httpd.conf $PREFIX/etc/apache2/
 
-chmod +x ~/start.sh
+chmod +x ~/aapm/server-start.sh
 
-mv ~/start.sh $PREFIX/bin/start-admin
+mv ~/aapm/server-start.sh $PREFIX/bin/server-start
 
-rm -rf ~/termuxphp
+rm -rf ~/aapm
 
 echo 'installation done'
