@@ -18,7 +18,7 @@ mv $PREFIX/etc/apache2/httpd.conf $PREFIX/etc/apache2/httpd.conf.bak
 
 mv ~/aapm/localhost.conf $PREFIX/etc/apache2/conf.d/
 
-mv ~/aapm/phpmyadmin-vhost.conf $PREFIX/etc/apache2/
+mv ~/aapm/phpmyadmin-vhost.conf $PREFIX/etc/apache2/conf.d/
 
 mv ~/aapm/httpd.conf $PREFIX/etc/apache2/
 
