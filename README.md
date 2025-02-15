@@ -12,7 +12,7 @@
 # run php and mysql server
 
 1. open termux
-2. server-start &
+2. server-start
 3. create php file inside $HOME/htdocs
 
 # php
