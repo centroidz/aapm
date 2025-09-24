@@ -27,12 +27,12 @@ pkg install composer
 
 composer --version
 
-## create laravel project
+##### create laravel project
 
 composer create-project laravel/laravel myapp
 cd myapp
 
-## run laravel development server
+##### run laravel development server
 
 php artisan serve --host=0.0.0.0 --port=8000
 
