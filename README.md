@@ -21,3 +21,21 @@ localhost:8080 or 127.0.0.1:8080
 # phpmyadmin
 localhost:3333 or 127.0.0.1:3333
 
+# laravel
+
+pkg install composer
+
+composer --version
+
+## create laravel project
+
+composer create-project laravel/laravel myapp
+cd myapp
+
+## run laravel development server
+
+php artisan serve --host=0.0.0.0 --port=8000
+
+
+
+
